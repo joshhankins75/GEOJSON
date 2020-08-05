@@ -93,32 +93,32 @@ $.getJSON("redlinextensionwstations.geojson",function(data){
 
 
 
-$.getJSON("CTARailLines.geojson",function(data,){
+// $.getJSON("CTARailLines.geojson",function(data,){
 
-	L.geoJSON(data, {
+// 	L.geoJSON(data, {
 
-		style: function(feature) {
+// 		style: function(feature) {
 
-			var legendColor,
+// 			var legendColor,
 
-		 leg = feature.properties.LEGEND;
+// 		 leg = feature.properties.LEGEND;
 
-			if ( leg == "RD" ) legendColor = "red";
+// 			if ( leg == "RD" ) legendColor = "red";
 
-			else legendColor = "blue";
+// 			else legendColor = "blue";
 
-			return{  color: "999", 
+// 			return{  color: "999", 
 
-					weight: 3
-					color: legendColor,
+// 					weight: 3
+// 					color: legendColor,
 
-		};
-	}
+// 		};
+// 	}
 
-				}).addTo(map).bringToBack();
-});
+// 				}).addTo(map).bringToBack();
+// });
 
-// 		\
+
 
 
 
